@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: BJjztx+4GmjlYGwJmQlYVZxpZtc+oGpJq7PlyZLb+lGdDqCKMkAnExpgbgJL89z+qC/Et7QYxInHuvvQrOmD0+QMNTpXGcLkcZBGy7W4HChjxhN4zqdWZSeye6l64qUbOAoCINHvJT9GOLb0JJWOqayt5LkMW1hOaThbcxnprTNHi0D0dbI5K4FZELs+UhNOIwdal7kBvz30E+1sz+cKR/vXIWagsTk1+Mkl+YvNns2CMGZpMEIUXMFbAWz7d8pJRsTrHY6SUNEC36sw9c8dzAPrgjpDjZFDnHg6lI0mVhesL3we+LuC8Rn7jYF8wuJFVe5wjK9K2871cw7mYQuuIphCqI30aJkFwwUYGGiqlKHL4cJ9/yslaLZNulO5nyu5QdmRrsRkTkbYcWLvAz879i9HrTMnfRNQUDpkFjTkTAVuliTCpPY92wOzjO1wU/w3dB0nQOwMMDdcRBn67/PnnDLE03Sw+3kxseOChE0AlyQC4xSFfQcBzkll/6dcT4JsvneMjRDZrwnLywYNSLaoEJgyGXGOmQ0KLa8c7YrYRRx281jwvlbik0vGdfxfTsOeRISTqRtKW6VLUfq6ruD8YSqOi856bGqjXXLql/9wPUnINoWfYx0GYWaPLvilNUdZRJqxEaKMpaMDeMsJgQm8RskGwap9eaJ0TQ2Ard5pciQ=
+  app: agile-dawn-54810
+  on:
+    repo: jayrap24/blog-api-xy
